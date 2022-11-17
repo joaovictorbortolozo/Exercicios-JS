@@ -1,8 +1,7 @@
 function Converter(){
-    let valor1 = document.getElementById('n1')
+    let value1 = document.getElementById('n1').value
 
-    let total = parseFloat(valor1)/100
+    let metros = parseFloat(value1)/100
 
-    document.getElementById('resposta').innerHTML=total/100
-    
+    document.getElementById('conversao'). innerHTML = metros + ' Metros'
 }
